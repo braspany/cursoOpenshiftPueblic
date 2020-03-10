@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def min():
-  return "¡¡¡Bienvenido!!!!"
+  return "¡¡¡Bienvenidos al curso OpenShift!!!!"
   
 @app.route('/como estas')
 def hola():
